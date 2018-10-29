@@ -41,6 +41,7 @@ We are using queue to figure out the students who are in WaitList in CS400 sprin
 The program automatically enrolls the student next in line, as soon as other studenst who has already enrolled drop out. Keeps track of the order of students in the Queue and do not let it go out of capacity. 
 Let's suppose there are four students in the waitlist at this moment. Student A was the  first to be on the waitlist, then came student B, and C and D respectively. Then as an enrolled students drops out, student A will automatically be enrolled in the class. After that, if any spot opens up B will automatically get enrolled before C and D. In general, it follows, first in first out strategy. Throws an exception if a student is not elligible to take the class. Also, we can give an update to the students about the size of the queue so that they can decide wheather they want to stay on or find another class. 
 
+
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
 The data required are as follows:
 a. Identity of a student. (Name, Student ID, DOB, school year, etc)
@@ -51,8 +52,11 @@ NOTE: Students have authority to add and delete themselves from te waitlist by g
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
 Text menus to let students check their status in the waitlist, and give them a general idea if they should keep waiting or find another class. Students who wish to add them into the waitlist they can do so by filling out a form online in school website. 
 
+
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
+
 a. queueADT --> the interface with usual queue method such as enqueue, dequeue, peek, isEmpty. 
+
 b. Node class ( each student is a node and their personal informatino is stored there)
  This class should have most of the required methods including enqueue, dequeue, peek, isempty, etc. And, we add the method that checks if the student no longer wishes to be on the waitlist and remove them accordingly. Also, a method to automate the process of enrolling a waitlist student as soon as there a spot open. finally, we can add a method to keep track of number of students in the class, maxximum capacity, and number of students in the waitlist and autmatically informs them about their status.  A new node is constructed when a student adds their information on the class webiste.
  
