@@ -55,9 +55,9 @@ Text menus to let students check their status in the waitlist, and give them a g
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
 
-a. queueADT --> the interface with usual queue method such as enqueue, dequeue, peek, isEmpty. 
+..* queueADT --> the interface with usual queue method such as enqueue, dequeue, peek, isEmpty. 
 
-b. Node class ( each student is a node and their personal informatino is stored there)
+..* Node class ( each student is a node and their personal informatino is stored there)
  This class should have most of the required methods including enqueue, dequeue, peek, isempty, etc. And, we add the method that checks if the student no longer wishes to be on the waitlist and remove them accordingly. Also, a method to automate the process of enrolling a waitlist student as soon as there a spot open. finally, we can add a method to keep track of number of students in the class, maxximum capacity, and number of students in the waitlist and autmatically informs them about their status.  A new node is constructed when a student adds their information on the class webiste.
  
 
