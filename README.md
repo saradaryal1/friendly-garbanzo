@@ -10,7 +10,7 @@
        * GitHub username 1:       name 1: saradaryal1
        * GitHub username 2:       name 2: alekslesiewiscz
        * GitHub username 3:       name 3: BRSchewe
-       * GitHub username 4:       name 4:
+       * GitHub username 4:       name 4: nahroo95
        * GitHub username 5:       name 5:
    * When did you complete this exercise? Sunday
    * How long did it take your team to complete this exercise? Couple of hours
